@@ -1,3 +1,3 @@
-if __name__ == "main":
+if __name__ == "__main__":
     with open("0/input.txt", "r") as f:
         pass
