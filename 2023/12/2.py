@@ -1,8 +1,5 @@
-import logging
 from functools import cache
 
-# Set up logging to a file
-logging.basicConfig(filename='log.log', level=logging.DEBUG)
 
 @cache
 def count_combinations(line, groups, curr_group_size=0, num_recursion=0):
